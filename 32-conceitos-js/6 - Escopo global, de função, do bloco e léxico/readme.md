@@ -1,4 +1,4 @@
-Escopo global, de função, do bloco e léxico
+# 6 - Escopo global, de função, do bloco e léxico
 
 O Escopo seria a sensibilidade das variáveis, funções e objetos em uma
 parte do código enquanto ele está sendo executado. Em outras palavras,

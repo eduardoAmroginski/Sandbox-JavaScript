@@ -1,4 +1,4 @@
-Implícito, Explicito e chamada de métodos:
+# 4 - Implícito, Explicito e chamada de métodos:
 
 Coerção:
 É quando o JS tenta converter um tipo de um valor para um tipo esperado

@@ -1,4 +1,4 @@
-== vs === vs typeof (Comparação de valores e tipos)
+# 5 - == vs === vs typeof (Comparação de valores e tipos)
 
 == :
 Esse sinal utiliza-se da coerção, faz a comparação apenas dos valores,

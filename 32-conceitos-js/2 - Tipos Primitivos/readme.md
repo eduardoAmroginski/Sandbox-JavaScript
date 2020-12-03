@@ -1,12 +1,13 @@
-Tipos primitivos:
+# 2 - Tipos primitivos:
 
 No javascript temos apenas seis tipos Primitivos que são
- - Boolean:
- - String
- - Number
- - Null
- - Undefined
- - Symbol - Este foi adicionado no ES6
+
+- Boolean:
+- String
+- Number
+- Null
+- Undefined
+- Symbol - Este foi adicionado no ES6
 
 Funções, objetos e arrays são objetos.
 
