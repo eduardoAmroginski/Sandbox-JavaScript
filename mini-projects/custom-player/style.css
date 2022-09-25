@@ -1,0 +1,85 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* end Reset */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ccc;
+  flex-direction: column;
+}
+
+.container-video {
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container-video:hover .controls {
+  transform: translateY(0);
+}
+
+.video {
+  width: 100%;
+}
+
+.buttons {
+  padding: 10px;
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: translateY(100%) translateY(-5px);
+  transition: all 0.2s;
+}
+
+.buttons button {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.buttons button::before {
+  content: "\f144";
+  font-family: "Font Awesome 5 Free";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  font-size: 28px;
+  color: #fff;
+  -wbekit-font-smoothin: antialiased;
+}
+
+.buttons button.play::before {
+  content: "\f144";
+}
+.buttons button.pause::before {
+  content: "\f28b";
+}
+
+.orange-bar {
+  height: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.orange-juice {
+  height: 10px;
+  background-color: orangered;
+  transition: width 0.1s ease-in;
+}
