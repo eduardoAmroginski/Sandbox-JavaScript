@@ -19,6 +19,7 @@ export default class Carro{
         }
 
         console.log(`O carro está ${mensagem}`)
+        return this.statusCarro
     }
     
     acelerar = () => {
@@ -29,6 +30,8 @@ export default class Carro{
         }else{
             console.log(`Você atingiu a velocidade Máxima que é de: ${this.velocidadeMaxima}Km/h`);
         }
+        let velocidade = this.velocidadeAtual;
+        return velocidade;
     }
 
     freiar = () => {
@@ -41,6 +44,8 @@ export default class Carro{
         }else{
             console.log("O carro está parado.");
         }
+        let velocidade = this.velocidadeAtual;
+        return velocidade;
     }
 
     mostrarInformacoes = () => {

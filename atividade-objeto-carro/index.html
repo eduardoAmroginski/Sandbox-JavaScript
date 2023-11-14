@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,87 @@
     <title>Carro</title>
     <link rel="stylesheet" href="src/css/styles.css">
 </head>
+
 <body>
 
     <main>
-        <button id="ligarDesligar">Ligar / Desligar</button>
-        <button id="acelerar">Acelerar</button>
-        <button id="freiar">Freiar</button>
-        <button id="mostrarInformacoes">Mostrar Informações</button>
+        <div class="panel-form">
+            <h1>Carro</h1>
+            <form id="form-carro">
+                <div class="input-box">
+                    <label>Marca:</label>
+                    <input name="marca" type="text" placeholder="Digite a marca...">
+                </div>
+                <div class="input-box">
+                    <label>Modelo:</label>
+                    <input name="modelo" type="text" placeholder="Digite o modelo...">
+                </div>
+                <div class="input-box">
+                    <label>Peso:</label>
+                    <input name="peso" type="text" placeholder="Digite o peso...">
+                </div>
+                <div class="input-box">
+                    <label>Cor:</label>
+                    <input name="cor" type="text" placeholder="Digite a cor...">
+                </div>
+                <div class="input-box">
+                    <label>Quantidade de portas:</label>
+                    <input name="quantidadePortas" type="number" placeholder="Digite a quantidade de portas...">
+                </div>
+                <div class="input-box">
+                    <label>Velocidade máxima:</label>
+                    <input name="velocidadeMaxima" type="number" placeholder="Digite a Velocidade máxima...">
+                </div>
+                <button type="submit">Setar</button>
+            </form>
+        </div>
+
+        <div class="panel-infos">
+            <h1>Informações do Carro</h1>
+            <div class="info-marca">
+                <label>Marca:</label>
+                <span></span>
+            </div>
+            <div class="info-modelo">
+                <label>Modelo:</label>
+                <span></span>
+            </div>
+            <div class="info-peso">
+                <label>Peso:</label>
+                <span></span>
+            </div>
+            <div class="info-cor">
+                <label>Cor:</label>
+                <span></span>
+            </div>
+            <div class="info-quantidadePortas">
+                <label>Quantidade de portas:</label>
+                <span></span>
+            </div>
+            <div class="info-velocidadeMaxima">
+                <label>Velocidade Maxima:</label>
+                <span></span>
+            </div>
+            <div class="info-velocidadeAtual">
+                <label>Velocidade Atual:</label>
+                <span></span>
+            </div>
+            <div class="info-status">
+                <label>Status:</label>
+                <span></span>
+            </div>
+
+            <button id="ligarDesligar">Ligar / Desligar</button>
+            <button id="acelerar">Acelerar</button>
+            <button id="freiar">Freiar</button>
+            <button id="mostrarInformacoes">Mostrar Informações</button>
+
+        </div>
+
     </main>
 
     <script type="module" src="./src/js/index.js"></script>
 
 </body>
+
 </html>
