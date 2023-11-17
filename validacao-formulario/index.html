@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de formulários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Cadastro</h1>
+        <form id="meuFormulario">
+            <div class="container-input">
+                <label for="nome">Nome: </label>
+                <input id="nome" type="text" name="nome" placeholder="Digite o seu nome">
+            </div>
+            
+            <div class="container-input">
+                <label for="sobrenome">Sobrenome: </label>
+                <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite o seu sobrenome">
+            </div>
+
+            <div class="container-input">
+                <label for="email">Email: </label>
+                <input type="email" name="email" placeholder="Digite o seu email">
+            </div>
+
+            <div class="container-input">
+                <label for="senha">Senha: </label>
+                <input id="senha" type="password" name="senha" placeholder="Digite a sua senha">
+                <span id="password-status"></span>
+            </div>
+
+            <div class="container-input">
+                <label for="cpf">CPF: </label>
+                <input id="cpf" type="text" name="cpf" placeholder="Digite o seu CPF">
+            </div>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
