@@ -29,7 +29,7 @@ const validaSenha = () => {
 	const alfabeto = /([a-zA-Z])/;
 	const chEspeciais = /([~,!,@,#,$,%,^,&,*,-,_,+,=,?,>,<])/;
 
-    if(inputSenha.value.length < 6){
+    if(inputSenha.value.length < 8){
         passwordStatus.textContent = "Fraco, insira no mínimo 6 caracteres"
         passwordStatus.style.color = "red"
     }else{

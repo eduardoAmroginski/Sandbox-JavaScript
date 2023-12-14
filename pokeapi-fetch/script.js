@@ -68,3 +68,10 @@ fetch(`https://pokeapi.co/api/v2/pokemon/?limit=${limit}&offset=${offset}`)
         console.log(`Lista de pokémons:`, data.results);
     })
     .catch(error => console.error(error));
+
+// Criando um cookie com data de expiração
+document.cookie = 'carro=fiesta; expires=Fri, 09 Dec 2023 20:00:00 UTC; path=/';
+
+// Obtendo dados do cookie
+const cookies = document.cookie;
+console.log(cookies);
